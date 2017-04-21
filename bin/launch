@@ -1,0 +1,51 @@
+#!/bin/sh
+while [ -n "$2" ] ; do
+     case "$1" in
+         -b | --bundle-id)     export SUGAR_BUNDLE_ID="$2" ;;
+         -a | --activity-id)   export SUGAR_ACTIVITY_ID="$2" ;;
+         -o | --object-id)     export SUGAR_OBJECT_ID="$2" ;;
+         -u | --uri)           export SUGAR_URI="$2" ;;
+         *) echo unknown argument $1 $2 ;;
+     esac
+     shift;shift
+done
+
+export NET_WM_NAME= Cazaproblemas3
+cd "$SUGAR_BUNDLE_PATH"
+
+ARGS=""
+EXECUTABLE=puzzlechasers3
+export LD_LIBRARY_PATH="$SUGAR_BUNDLE_PATH/lib-i386"
+if [ -z "$(cat /proc/cpuinfo | grep XO-1.75)" ]
+  then
+  #Check for JumPC
+  if [ -n "$(xvinfo | grep RV16)" ]
+  then
+	  if [ -n "$(cat /proc/cpuinfo | grep Geode)" ]
+	  then
+		  #XO-1 PC
+		  ARGS='1 0 1'
+	  else
+		  #XO-1.5 PC
+		  ARGS='1 1 1'
+	  fi	
+  else
+	  #Olidata PC
+	  ARGS='0 1 1'
+  fi
+  export LD_PRELOAD="$SUGAR_BUNDLE_PATH/lib-i386/libsugarize.so"
+else
+  ARGS='1 1 1 1'
+  export LD_PRELOAD="$SUGAR_BUNDLE_PATH/lib-arm/libsugarize.so"
+  fedora_version=$(sed -rn 's/.*Fedora ([0-9]*).*/\1/p' < /etc/system-release)
+  if [ $fedora_version -lt 18 ]
+  then
+    EXECUTABLE="${EXECUTABLE}-arm"
+    export LD_LIBRARY_PATH="$SUGAR_BUNDLE_PATH/lib-arm"
+  else
+    EXECUTABLE="${EXECUTABLE}-armh"
+    export LD_LIBRARY_PATH="$SUGAR_BUNDLE_PATH/lib-armh"
+  fi
+fi
+
+exec ./$EXECUTABLE $ARGS

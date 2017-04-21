@@ -1,0 +1,9 @@
+[Activity]
+name = Cazaproblemas 3
+service_name = com.trojanchicken.cazaproblemas3
+icon = icon.sugar
+activity_version = 10
+host_version = 1
+show_launcher = yes
+exec = launch
+bundle_id = com.trojanchicken.cazaproblemas3

@@ -1,0 +1,1 @@
+{"frames": [[0, 0, 55, 57, 0, 28, 57], [0, 0, 55, 57, 1, 28, 57]], "images": ["obj_block_rock_switch_frame_0.png", "obj_block_rock_switch_frame_1.png"], "animations": {"to_red": {"frames": [1, 0]}, "to_blue": {"frames": [0, 1]}, "all": {"frames": [1]}}}

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="38" height="30" tilewidth="30" tileheight="30">
+ <properties>
+  <property name="puzzle" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="box_large_1" tilewidth="92" tileheight="120">
+  <image source="../puzzles/collection_1/box_c1_a_default.png" trans="ff00ff" width="92" height="120"/>
+ </tileset>
+ <tileset firstgid="2" name="n10" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_10.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="3" name="n04" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_04.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="4" name="n06" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_06.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="5" name="n15" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_15.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="6" name="n08" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_08.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="7" name="n13" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_13.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="8" name="n02" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_02.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="9" name="n07" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_07.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="10" name="n16" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_16.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="11" name="n03" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_03.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="12" name="n14" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_14.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="13" name="n05" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_05.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="14" name="n09" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_09.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="15" name="n11" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_11.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="16" name="n01" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_01.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="17" name="n12" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_12.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="18" name="numbers_collision" tilewidth="20" tileheight="20">
+  <image source="../objects/obstacle.png" width="20" height="20"/>
+ </tileset>
+ <tileset firstgid="19" name="block_rock" tilewidth="88" tileheight="119">
+  <image source="../objects/block_rock_frame_0.png" width="88" height="119"/>
+ </tileset>
+ <tileset firstgid="20" name="cave_switch_up" tilewidth="60" tileheight="60">
+  <image source="../objects/cave_switch_up.png" trans="ffffff" width="60" height="60"/>
+ </tileset>
+ <tileset firstgid="21" name="omega_digger_burrowed" tilewidth="41" tileheight="41">
+  <image source="../omegas/omega_digger_burrowed_016.png" width="41" height="41"/>
+ </tileset>
+ <tileset firstgid="22" name="poke_triangle_punch" tilewidth="70" tileheight="70">
+  <image source="../pokes/triangle/poke_triangle_punch_w004.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="23" name="n23" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_23.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="24" name="n28" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_28.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="25" name="n17" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_17.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="26" name="n22" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_22.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="27" name="n27" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_27.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="28" name="n21" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_21.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="29" name="n26" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_26.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="30" name="n20" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_20.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="31" name="n25" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_25.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="32" name="n19" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_19.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="33" name="n24" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_24.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="34" name="n18" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_18.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="35" name="tutorial_tile" tilewidth="60" tileheight="60">
+  <image source="../objects/tutorial_tile.png" width="60" height="60"/>
+ </tileset>
+ <tileset firstgid="36" name="sceptre" tilewidth="104" tileheight="239">
+  <image source="../objects/item_sceptre.png" width="104" height="239"/>
+ </tileset>
+ <tileset firstgid="37" name="n33" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_33.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="38" name="n31" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_31.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="39" name="n36" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_36.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="40" name="n29" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_29.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="41" name="n30" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_30.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="42" name="n35" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_35.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="43" name="n32" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_32.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="44" name="n34" tilewidth="90" tileheight="90">
+  <image source="../puzzles/numbers/number_on_34.png" width="90" height="90"/>
+ </tileset>
+ <tileset firstgid="45" name="red_rock_block" tilewidth="92" tileheight="125">
+  <image source="../objects/red_rock_block.png" width="92" height="125"/>
+ </tileset>
+ <tileset firstgid="46" name="blue_rock_block" tilewidth="92" tileheight="125">
+  <image source="../objects/blue_rock_block.png" width="92" height="125"/>
+ </tileset>
+ <tileset firstgid="47" name="switch" tilewidth="65" tileheight="62">
+  <image source="../objects/switch_red.png" width="65" height="62"/>
+ </tileset>
+ <tileset firstgid="48" name="stone_block_done" tilewidth="104" tileheight="123">
+  <image source="../objects/stone_block_done.png" width="104" height="123"/>
+ </tileset>
+ <layer name="1" width="38" height="30" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="collisions" width="38" height="30" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="objects" width="38" height="30">
+  <object name="col_box_1" x="150" y="100" width="85" height="56"/>
+  <object name="obj_box" gid="1" x="149" y="158"/>
+  <object name="tri_box_1" x="151" y="98" width="83" height="17"/>
+  <object name="number_on" gid="16" x="540" y="120">
+   <properties>
+    <property name="layer" value="2"/>
+    <property name="visible" value="false"/>
+   </properties>
+  </object>
+  <object name="obj_obstacle" gid="18" x="1042" y="166">
+   <properties>
+    <property name="layer" value="2"/>
+   </properties>
+  </object>
+  <object name="obj_block_rock" gid="19" x="145" y="298">
+   <properties>
+    <property name="anim_name" value="zoe:block_rock"/>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="obj_block_door" gid="48" x="269" y="306">
+   <properties>
+    <property name="anim_name" value="zoe:block_door"/>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="omega" gid="21" x="945" y="337"/>
+  <object name="obj_tutorial" gid="35" x="283" y="165">
+   <properties>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="obj_sceptre" gid="36" x="403" y="428">
+   <properties>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="obj_blue_block_rock" gid="46" x="270" y="510">
+   <properties>
+    <property name="anim_name" value="zoe:blue_block_rock"/>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="obj_red_block_rock" gid="45" x="150" y="510">
+   <properties>
+    <property name="anim_name" value="zoe:red_block_rock"/>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="obj_block_rock_switch" gid="47" x="183" y="614">
+   <properties>
+    <property name="anim_name" value="zoe:obj_block_rock_switch"/>
+    <property name="layer" value="10"/>
+   </properties>
+  </object>
+  <object name="poke" gid="22" x="945" y="282"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" name="collisions" width="38" height="30">
+  <object name="col_obj_box" x="151" y="103" width="85" height="51"/>
+  <object name="col_obj_obstacle" x="1046" y="153" width="9" height="9"/>
+  <object name="col_obj_block_rock" x="147" y="198" width="83" height="168"/>
+  <object name="col_obj_block_door" x="271" y="253" width="96" height="40"/>
+  <object name="obj_switch" gid="20" x="396" y="140">
+   <properties>
+    <property name="anim_name" value="switch"/>
+    <property name="layer" value="5"/>
+   </properties>
+  </object>
+  <object name="col_obj_red_block_rock" x="150" y="450" width="90" height="60"/>
+  <object name="col_obj_block_rock_switch" x="203" y="590" width="17" height="17"/>
+  <object name="col_obj_blue_block_rock" x="270" y="450" width="90" height="60"/>
+ </objectgroup>
+ <objectgroup color="#00ff00" name="triggers" width="38" height="30">
+  <object name="tri_number_on" x="556" y="50" width="54" height="60"/>
+  <object name="tri_obj_tutorial" x="291" y="148" width="43" height="17"/>
+  <object name="tri_obj_switch" x="404" y="80" width="43" height="58"/>
+  <object name="tri_omega" x="953" y="310" width="22" height="20"/>
+  <object name="tri_poke" x="959" y="241" width="39" height="24"/>
+  <object name="tri_obj_sceptre" x="419" y="426" width="64" height="23"/>
+  <object name="tri_obj_block_rock_switch" x="174" y="561" width="79" height="73"/>
+ </objectgroup>
+</map>

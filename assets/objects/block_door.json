@@ -1,0 +1,5 @@
+{
+    "frames": [[0, 0, 1, 1, 0, 254, 250], [0, 0, 96, 16, 1, 48, 16], [0, 0, 97, 27, 2, 48, 27], [0, 0, 97, 34, 3, 48, 34], [0, 0, 97, 48, 4, 48, 48], [0, 0, 97, 60, 5, 48, 60], [0, 0, 97, 71, 6, 48, 71], [0, 0, 97, 85, 7, 48, 85], [0, 0, 97, 100, 8, 48, 100], [0, 0, 97, 114, 9, 48, 108]],
+    "images": ["block_door_frame_0.png", "block_door_frame_1.png", "block_door_frame_2.png", "block_door_frame_3.png", "block_door_frame_4.png", "block_door_frame_5.png", "block_door_frame_6.png", "block_door_frame_7.png", "block_door_frame_8.png", "block_door_frame_9.png"],
+    "animations": {"to_up": {"frames": [1, 2, 3, 4, 5, 6, 7, 8]}, "down": {"frames": [0]}, "up": {"frames": [9]}, "default": {"frames": [0]}}
+}

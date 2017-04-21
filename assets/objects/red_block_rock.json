@@ -1,0 +1,5 @@
+{
+    "frames": [[0, 0, 88, 119, 0, 45, 118], [0, 0, 88, 109, 1, 45, 108], [0, 0, 88, 105, 2, 45, 103], [0, 0, 88, 97, 3, 45, 96], [0, 0, 88, 90, 4, 45, 89], [0, 0, 88, 72, 5, 45, 71], [0, 0, 88, 59, 6, 45, 58]],
+    "images": ["red_block_rock_frame_0.png", "red_block_rock_frame_1.png", "red_block_rock_frame_2.png", "red_block_rock_frame_3.png", "red_block_rock_frame_4.png", "red_block_rock_frame_5.png", "red_block_rock_frame_6.png"],
+    "animations": {"up": {"frames": [0]}, "all": {"frames": [6]}, "default": {"frames": [0]}, "down": {"frames": [6]}, "to_down": {"frames": [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6]}, "to_up": {"frames": [6, 6, 5, 5, 4, 4, 3, 3, 2, 2, 1, 1, 0, 0]}}
+}
